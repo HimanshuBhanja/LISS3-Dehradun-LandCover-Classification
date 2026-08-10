@@ -1,0 +1,20 @@
+# raw data (large, not tracked)
+data/raw/*
+!data/raw/README.md
+
+# outputs (regenerable)
+outputs/classification/*.tif
+outputs/maps/*.png
+outputs/tables/*.csv
+results/*.png
+results/*.csv
+
+# python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+*.egg-info/
+
+# OS
+.DS_Store
