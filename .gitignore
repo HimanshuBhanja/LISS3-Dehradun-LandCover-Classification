@@ -1,15 +1,21 @@
-# raw data (large, not tracked)
+# Raw data (large, not tracked)
 data/raw/*
 !data/raw/README.md
 
-# outputs (regenerable)
+# Regenerable outputs
 outputs/classification/*.tif
 outputs/maps/*.png
 outputs/tables/*.csv
 results/*.png
 results/*.csv
 
-# python
+# Final project outputs to include in GitHub
+!outputs/classification/LISS3_Dehradun_LandCover_Classification_Clipped.tif
+!outputs/tables/land_cover_statistics.csv
+!results/confusion_matrix.png
+!results/classification_report.csv
+
+# Python
 __pycache__/
 *.pyc
 .ipynb_checkpoints/
